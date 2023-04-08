@@ -29,20 +29,9 @@ adb shell pm grant org.mupen64plusae.v3.fzurita.pro android.permission.READ_EXTE
 adb shell pm grant com.flycast.emulator android.permission.READ_EXTERNAL_STORAGE
 
 # --- Apps --- #
-# KWGT
-adb shell pm grant org.kustom.widget android.permission.READ_EXTERNAL_STORAGE
-adb shell pm grant org.kustom.widget android.permission.WRITE_EXTERNAL_STORAGE
-adb shell pm grant org.kustom.widget android.permission.ACCESS_FINE_LOCATION
-adb shell pm grant org.kustom.widget android.permission.ACCESS_COARSE_LOCATION
-adb shell pm grant org.kustom.widget android.permission.ACCESS_BACKGROUND_LOCATION
-# Solid Explorer
-adb shell pm grant pl.solidexplorer2 android.permission.READ_EXTERNAL_STORAGE
-adb shell pm grant pl.solidexplorer2 android.permission.WRITE_EXTERNAL_STORAGE
-# MT
-adb shell pm grant bin.mt.plus android.permission.READ_EXTERNAL_STORAGE
-adb shell pm grant bin.mt.plus android.permission.WRITE_EXTERNAL_STORAGE
-# Magisk
-adb shell pm grant com.topjohnwu.magisk android.permission.READ_EXTERNAL_STORAGE
-adb shell pm grant com.topjohnwu.magisk android.permission.WRITE_EXTERNAL_STORAGE
-# 水印相机
-adb shell pm grant com.tencent.zebra android.permission.CAMERA
+# # Solid Explorer
+# adb shell pm grant pl.solidexplorer2 android.permission.READ_EXTERNAL_STORAGE
+# adb shell pm grant pl.solidexplorer2 android.permission.WRITE_EXTERNAL_STORAGE
+# # MT
+# adb shell pm grant bin.mt.plus android.permission.READ_EXTERNAL_STORAGE
+# adb shell pm grant bin.mt.plus android.permission.WRITE_EXTERNAL_STORAGE
